@@ -1,0 +1,15 @@
+.hidden {
+    display: none;
+}
+button{
+    display: none;
+}
+img {
+    width: 600px;
+    border-style: double;
+    border-width: 10px;
+    border-color:black;
+}
+div{
+    display:inline;
+}

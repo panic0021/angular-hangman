@@ -1,0 +1,6 @@
+<button (click)="changePic()">Change picture:</button>
+<div class="slike">
+    <div *ngFor="let slika of slike; let i = index" [class.hidden]="i !== indeks">
+        <img [src]="'../../assets/hangman-slike/' + slika" alt="Slide {{ i + 1 }}">
+      </div>
+</div>

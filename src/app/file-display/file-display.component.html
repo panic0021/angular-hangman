@@ -1,0 +1,17 @@
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+</head>
+<div class="box">
+    <button class="random" (click)="randomRec(fileContent)">Random reč</button>
+    <!-- <div class="rec">{{smisljenaRec}}</div> -->
+    <div class="crtice">{{crte}}</div>
+    <input type="text" [(ngModel)]="ulaz" placeholder="Unesi ovde...">
+    <div class="pokusaj">Pokusao si do sad: {{pokusaji}}</div>
+    <div class="provera-buttons">
+        <button class="provera" (click)="proveriSlovo()">Proveri slovo</button>
+        <button class="provera" (click)="provera()">Proveri konačnu reč</button>
+    </div>
+
+</div>

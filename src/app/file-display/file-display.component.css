@@ -1,0 +1,58 @@
+* {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.random {
+    width: 200px;
+    height: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    border-width: 3px;
+    background-color: rgb(90, 0, 0);
+    transition: opacity 0.25s;
+}
+
+.random:hover {
+    opacity: 0.7;
+}
+
+.pokusaj{
+    background-color:rgb(90,0,0);
+    padding:5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+
+.provera {
+    width: 200px;
+    height: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    border-width: 3px;
+    background-color: rgb(40, 40, 40);
+    transition: opacity 0.25s;
+}
+
+.provera:hover {
+    opacity: 0.7;
+}
+
+.provera-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}

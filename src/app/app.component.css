@@ -1,0 +1,17 @@
+*{
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(43, 43, 43);
+}
+.box-all{
+    display: flex;
+    margin-top:100px;
+    margin-left: 30px;
+    margin-right: 150px;
+    justify-content: space-between;
+}
